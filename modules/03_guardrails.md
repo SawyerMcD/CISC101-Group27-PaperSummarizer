@@ -1,3 +1,4 @@
+Changelog: Added new guardrails.
 Missing/empty sections:
 
 Rule: If the section is missing or empty, do not fabricate content; output a placeholder and add a warning.
