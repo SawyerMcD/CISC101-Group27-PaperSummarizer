@@ -1,3 +1,4 @@
+Changelog: Added summary level.
 Purpose: Process each section sequentially with uniform constraints.
 
 Workflow per section:
