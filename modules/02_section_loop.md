@@ -1,3 +1,4 @@
+Changelog: Added summary level.
 Purpose: Process each section sequentially with uniform constraints.
 
 Workflow per section:
@@ -25,3 +26,21 @@ Length checks: Flag if fewer than five valid bullets are possible.
 Artifacts:
 
 Section summary unit: Store bullets, key values, and flags for rendering.
+"Summary Level” Modes (Module 02)  
+The summarizer should support two summary levels for each section:
+
+
+For each [Section] -- > Generate a short summary and a detailed summary 
+
+If [short summary selected]:
+
+    Yes --> [generate only a compact 1–2 sentence summary per section]    
+    No --> [continue with detailed summary]
+
+
+If [Detailed summary selected ]
+
+    Yes --> [Generate a short paragraph plus a bullet list of 3–5 key points for each section]
+    No --> [continue with short summary]
+
+[Output: short Summary in 1-2 sentences, detailed Summary in short paragraph and bullet list]
